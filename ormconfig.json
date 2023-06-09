@@ -1,0 +1,33 @@
+{
+  "type" : "mysql",
+  "host" : "localhost",
+  "port" : 3306,
+  "username" : "root",
+  "password" : "",
+  "database" : "lamborgini",
+  "synchronize" : true,
+  "logging" : false,
+  "entities" : [
+     "typeorm/**/*.ts"
+  ], 
+  "migrations" : [
+    "typeorm/**/*.ts"
+  ], 
+  "subscribers" : [
+    "typeorm/subscriber/**/*.ts"
+  ], 
+   "cli" : {
+     "entitiesDir" : "typeorm/entity",
+     "migrationsDir" : "typeorm/migration",
+     "subscribers" : "typeorm/migrastion"
+   }
+
+  }
+
+
+  
+
+
+
+
+
